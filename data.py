@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def load_data():
     df1 = pd.read_csv(
-        'C:\\Users\\Aarth Shah\\OneDrive\\Desktop\\data-processing\\airlines_flights_data.csv')
+        'airlines_flights_data.csv')
     df = pd.DataFrame(df1)
     print("Data loaded successfully")
     process_data(df)
